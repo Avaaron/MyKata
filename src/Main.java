@@ -27,6 +27,7 @@ public class Main {
         int firstNumber = 0;
         int secondNumber = 0;
         int spaceResult;
+        String[] arr = new String[3];
         String mesage = "Некоректные данные!";
         String result = "";
         String sign;
@@ -40,7 +41,7 @@ public class Main {
         "LXXI", "LXXII", "LXXIII", "LXXIV", "LXXV", "LXXVI", "LXXVII", "LXXVIII", "LXXIX", "LXXX",
         "LXXXI", "LXXXII", "LXXXIII", "LXXXIV", "LXXXV", "LXXXVI", "LXXXVII", "LXXXVIII", "LXXXIX",
         "XC", "XCI", "XCII", "XCIII", "XCIV", "XCV", "XCVI", "XCVII", "XCVIII", "XCIX", "C"};
-        String[] arr = input.split(" ");
+        arr = input.split(" ");
         if (arr.length != 3) throw new IOException(mesage);
         sign = arr[1];
 

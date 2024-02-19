@@ -41,7 +41,7 @@ public class Main {
         "LXXXI", "LXXXII", "LXXXIII", "LXXXIV", "LXXXV", "LXXXVI", "LXXXVII", "LXXXVIII", "LXXXIX",
         "XC", "XCI", "XCII", "XCIII", "XCIV", "XCV", "XCVI", "XCVII", "XCVIII", "XCIX", "C"};
         String[] arr = input.split(" ");
-        if (arr.length < 3) throw new IOException(mesage);
+        if (arr.length != 3) throw new IOException(mesage);
         sign = arr[1];
 
         if (!checkSign(sign, sings)) {
